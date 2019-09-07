@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Docker Commands
+
+Development
+  - docker build -f Dockerfile.dev .
+  - docker run -p 3000:3000 -v /app/node_modules -v$(pwd):/app <imageId>
+
+
 ## Available Scripts
 
 In the project directory, you can run:
